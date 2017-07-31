@@ -1,0 +1,23 @@
+@media (max-width: 800px)
+{
+    #box-sizing
+    {
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 480px)
+{
+    #box-sizing
+    {
+        background-color: red;
+    }
+}
+
+@media print
+{
+    #before ul li
+    {
+        color: blue;
+    }
+}
